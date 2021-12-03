@@ -5,6 +5,8 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="utilities.css">
+    <script src="https://kit.fontawesome.com/beb31a0442.js" crossorigin="anonymous"></script>
     <title>Bridge</title>
   </head>
   <body>
@@ -25,7 +27,34 @@
       </div>
     </nav>
 
-    <!-- Hero Section -->
-    <section class="hero"></section>
+    <!-- Showcase Section Start -->
+    <section class="showcase">
+        <div class="container grid">
+             <div class="showcase-text">
+                <h1>Grow your business with Bridge</h2>
+                <p>Bridge provides cutting-edge ecommerce, business intelligence, and
+          content solutions for the beverage alcohol industry.
+        </p>
+        <i class="fas fa-arrow-down fa-lg"></i>
+      </div>
+
+      <div class="showcase-form card">
+        <h3>Getting started is easy</h3>
+        <p>Enter your information below to request a demo</p>
+        <form name="contact" method="post">
+          <div class="form-control">
+            <input type="text" name="name" placeholder="Full Name*" required /></div>
+            <div class="form-control">
+            <input type="email" name="email" placeholder="Email*" required></div>
+            <div class="form-control">
+            <input type="text" name="company" placeholder="Company*" required>
+            </div>
+            <input type="submit" value="Request Demo" class="btn btn-primary">
+          </div>
+        </form>
+      </div>
+    </section>
+    <!-- Showcase End -->
+
   </body>
 </html>
