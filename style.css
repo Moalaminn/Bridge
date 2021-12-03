@@ -1,0 +1,79 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&display=swap");
+
+:root {
+  --primary-color: #0b253c;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html,
+body {
+  font-family: "Open Sans", sans-serif;
+  line-height: 1.4;
+  color: #000;
+}
+
+a {
+  color: #fff;
+}
+
+ul {
+  list-style: none;
+}
+
+.navbar {
+  width: 100%;
+  height: auto;
+  background-color: var(--primary-color);
+  border-bottom: 0.1px rgba(165, 165, 165, 0.2) solid;
+}
+
+.navbar-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px;
+}
+
+.navbar ul {
+  display: flex;
+  align-items: center;
+}
+
+.navbar li {
+  margin: 0 15px;
+}
+
+.navbar a {
+  text-decoration: none;
+}
+
+.navbar-logo a {
+  display: flex;
+  align-items: center;
+  margin-left: 26px;
+}
+
+.nav-links {
+  flex: 1;
+  margin-left: 60px;
+  font-size: 16px;
+  font-weight: 200;
+}
+
+.login {
+  margin-right: 40px;
+  border: 0.1px rgba(165, 165, 165, 0.2) solid;
+  border-radius: 5px;
+  padding: 15px 38px;
+  transition: all 0.2s linear;
+}
+
+.login:hover {
+  background-color: #2476c2;
+  border: 0.5px #fff solid;
+}
