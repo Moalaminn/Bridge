@@ -3,6 +3,7 @@
 :root {
   --primary-color: #0b253c;
   --secondary-color: #2476c2;
+  --third-color: #f6fcfc;
 }
 
 * {
@@ -20,10 +21,16 @@ body {
 
 a {
   color: #fff;
+  text-decoration: none;
 }
 
 ul {
   list-style: none;
+}
+
+.container img {
+  height: 617px;
+  width: 580px;
 }
 
 .navbar {
@@ -76,8 +83,9 @@ ul {
 }
 
 .login:hover {
-  background-color: var(--secondary-color);
-  border: 0.5px #fff solid;
+  background-color: #0d2b46;
+
+  border: 0.5px #f6fcfc solid;
 }
 
 /* Showcase Section */
@@ -143,4 +151,147 @@ ul {
   width: 100%;
   padding: 10px;
   font-size: 16px;
+}
+
+/* Retail Section */
+
+.retail {
+  color: #3a3a3a;
+  position: relative;
+  padding: 120px 20px;
+  background-color: var(--third-color);
+}
+
+.retail .grid,
+.intel .grid,
+.content .grid {
+  gap: 40px;
+}
+
+.retail h3,
+.intel h3,
+.content h3 {
+  margin-bottom: 20px;
+  font-weight: 100;
+  font-size: 14px;
+  color: rgb(148, 148, 148);
+  letter-spacing: 2px;
+}
+
+.retail h2,
+.intel h2,
+.content h2 {
+  font-size: 42px;
+  font-weight: 600;
+  margin-bottom: 20px;
+}
+
+.fa-arrow-right {
+  padding-left: 5px;
+  display: inline-block;
+}
+
+/* Intel Section */
+
+.intel {
+  color: #ffffff;
+  position: relative;
+  padding: 120px 20px;
+  background-color: var(--primary-color);
+}
+
+/* Content */
+
+.content {
+  position: relative;
+  padding: 120px 20px;
+  background-color: var(--third-color);
+}
+
+/* Contact */
+
+.contact {
+  color: #ffffff;
+  position: relative;
+  padding: 120px 20px;
+  background-color: var(--primary-color);
+  border-bottom: 0.1px rgba(165, 165, 165, 0.2) solid;
+}
+
+.contact h1 {
+  font-weight: 600;
+  font-size: 42px;
+  padding: 10px;
+  margin-bottom: 20px;
+}
+
+.contact-form {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  text-align: center;
+  width: 450px;
+  margin: 0 auto;
+}
+
+.contact-form input[type="email"] {
+  border: none;
+  border-radius: 5px;
+  width: 100%;
+  padding: 15px;
+  font-size: 16px;
+  background-color: #fff;
+}
+
+.contact-form .btn-third {
+  width: 100%;
+  margin: 10px;
+}
+
+/* Footer */
+
+.footer {
+  background-color: var(--primary-color);
+  width: 100%;
+  height: auto;
+}
+
+.footer-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 50px;
+}
+
+.footer ul {
+  display: flex;
+  align-items: center;
+}
+
+.footer li {
+  margin: 0 20px;
+}
+
+.footer-linke {
+  font-size: 16px;
+  font-weight: 200;
+}
+
+.linkedin {
+  padding: 20px;
+  margin-left: 20px;
+}
+
+/* Copyright */
+.copyright {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: var(--primary-color);
+  color: rgb(112, 112, 112);
+  font-size: 12px;
+  padding: 0 0 30px 0;
 }
