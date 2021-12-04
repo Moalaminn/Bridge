@@ -109,10 +109,9 @@ ul {
 }
 
 .showcase .grid {
-  overflow: visible;
   grid-template-columns: 55% 45%;
   gap: 30px;
-  margin: 0 40px;
+  margin: 0 auto;
 }
 
 .fa-arrow-down {
